@@ -12,34 +12,99 @@
 <body>
     <header>
         <div class="row">
-            <div class="header-img"><img src="../images/The-reviewer2.jpg" class="center"></img>
+            <div class="header-img col-xs-12"><img src="../images/The-reviewer2.jpg" class="center"></img>
             </div>
         </div>
-        <div class="nav">
-            <a href="index.html">
-                <div class="col-md-3 menu-text menu-bg-color menu-options">Results</div>
-            </a>
-            <a href="teams.html">
-                <div class="col-md-3 menu-text menu-bg-color menu-options">Teams</div>
-            </a>
-            <a href="about.html">
-                <div class="col-md-3 menu-text menu-bg-color menu-options">About</div>
-            </a>
-            <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank">
-                <div class="col-md-3 menu-text menu-bg-color menu-options">Download</div>
-            </a>
+        <div class="row">
+            <div class="nav">
+                <a href="index.html">
+                    <div class="col-md-3 col-sm-6 menu-text menu-bg-color menu-options">Results</div>
+                </a>
+                <a href="teams.html">
+                    <div class="col-md-3 col-sm-6 menu-text menu-bg-color menu-options">Teams</div>
+                </a>
+                <a href="about.html">
+                    <div class="col-md-3 col-sm-6 menu-text menu-bg-color menu-options">About</div>
+                </a>
+                <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank">
+                    <div class="col-md-3 col-sm-6 menu-text menu-bg-color menu-options">Download</div>
+                </a>
+            </div>
         </div>
     </header>
-    <section class="center">
-        <div id="grand-final">
-            <div><i class="fa fa-gamepad"></i></div>
-            <div class="uppercase">grand final</div>
-            
+    <section>
+        <div class="fight-result center" id="grand-final">
+            <div class="gamepad"><i class="fa fa-gamepad"></i></div>
+            <div class="uppercase stage">grand final</div>
+            <div class="row">
+                <div class="col-md-5 col-xs-12 team-left fight-results-mobile">
+                    <img class="team-logo" src="http://i.imgur.com/qVvAZVD.png" style="width:80px;height:85px;"></img>
+                    <button type="button" class="btn btn-success">OG</button></div>
+                <div class="col-md-2 col-xs-12 score fight-results-mobile">3:2</div>
+                <div class="col-md-5 col-xs-12 team-right fight-results-mobile"><button type="button" class="btn btn-danger">PSG.LGD</button>
+                    <img class="team-logo" src="https://ggscore.com/media/logo/pic-20180420-600x677-30388408.png" style="width:80px;height:85px;"></img>
+
+                </div>
+                <div class="col-xs-12">
+                    <p><button type="button" class="btn btn-info btn-default btn-sm"  data-toggle="modal" data-target="#Grand-final">Fight info</button></p>
+                </div>
+            </div>
         </div>
+        </div>
+        </div>
+        </div>
+        <div class="fight-result center" id="losers-stage">
+            <div class="gamepad"><i class="fa fa-gamepad"></i></div>
+            <div class="uppercase stage">losers stage</div>
+            <div class="row">
+                <div class="col-md-5 col-xs-12 team-left fight-results-mobile"><img class="team-logo" src="https://ggscore.com/media/logo/pic-20180420-600x677-30388408.png" style="width:80px;height:85px;"></img><button type="button" class="btn btn-success">PSG.LGD</button></div>
+                <div class="col-md-2 col-xs-12 score fight-results-mobile">2:0</div>
+                <div class="col-md-5 col-xs-12 team-right fight-results-mobile"><button type="button" class="btn btn-danger">Evil Genius</button><img class="team-logo" src="https://scufgaming.com/s/wp-content/uploads/2016/07/EvilGeniuses.png" style="width:80px;height:85px;"></img>
+                </div>
+                <div class="col-xs-12"><u>Fight info</u></div>
+            </div>
+        </div>
+        <div class="fight-result center" id="semi-final">
+            <div class="gamepad"><i class="fa fa-gamepad"></i></div>
+            <div class="uppercase stage">semi final</div>
+            <div class="row">
+                <div class="col-md-5 col-xs-12 team-left fight-results-mobile"><img class="team-logo" src="https://assets2.razerzone.com/images/team-razer-2017/team-liquid-banner-v3.png" style="width:80px;height:85px;"></img><button type="button" class="btn btn-danger">Team Liquid</button></div>
+                <div class="col-md-2 col-xs-12 score fight-results-mobile">3:2</div>
+                <div class="col-md-5 col-xs-12 team-right fight-results-mobile"><button type="button" class="btn btn-success">Evil Genius</button><img class="team-logo" src="https://scufgaming.com/s/wp-content/uploads/2016/07/EvilGeniuses.png" style="width:80px;height:85px;"></img>
+                </div>
+                <div class="col-xs-12"><u>Fight info</u></div>
+            </div>
+        </div>
+        <div class="row center">
+            <div class="fight-result" id="Qurter-finals">
+                <div class="gamepad"><i class="fa fa-gamepad"></i></div>
+                <div class="uppercase stage">Quarter finals</div>
+                <div class="row">
+                    <div class="col-md-5 col-xs-12 team-left fight-results-mobile"><img class="team-logo" src="https://assets2.razerzone.com/images/team-razer-2017/team-liquid-banner-v3.png" style="width:80px;height:85px;"></img><button type="button" class="btn btn-success">Team liquid</button></div>
+                    <div class="col-md-2 col-xs-12 score fight-results-mobile">2:0</div>
+                    <div class="col-md-5 col-xs-12 team-right fight-results-mobile"><button type="button" class="btn btn-danger">Team Secret</button><img class="team-logo" src="https://d1u5p3l4wpay3k.cloudfront.net/rlesports_gamepedia_en/archive/6/6b/20170917143041%21Team_Secretlogo_square.png" style="width:80px;height:85px;"></img>
+                    </div>
+                    <div class="col-xs-12"><u>Fight info</u></div>
+                </div>
+
+                <div class="fight-result" id="Qurter-finals">
+                    <div class="gamepad"><i class="fa fa-gamepad"></i></div>
+                    <div class="uppercase stage">Quarter finals</div>
+                    <div class="row">
+                        <div class="col-md-5 col-xs-12 team-left fight-results-mobile"><img class="team-logo" src="https://scufgaming.com/s/wp-content/uploads/2016/07/EvilGeniuses.png" style="width:80px;height:85px;"></img><button type="button" class="btn btn-success">Evil Genius</button></div>
+                        <div class="col-md-2 col-xs-12 score fight-results-mobile">2:0</div>
+                        <div class="col-md-5 col-xs-12 team-right fight-results-mobile"><button type="button" class="btn btn-danger">Virtus Pro</button><img class="team-logo" src="https://svirtus.cdnvideo.ru/pnak69zbw9UG24hFFGOwMxIJNJA=/0x0:180x180/150x150/filters:quality(95)/https://s3.eu-central-1.amazonaws.com/esports-core-media/11/11b27ddddd62149ffa3dcddb1eb4c6bc.png?m=754c98c1473a1e8d7e329f3018216a25"
+                                style="width:80px;height:85px;"></img>
+                        </div>
+                        <div class="col-xs-12"><u>Fight info</u></div>
+                    </div>
+
+                </div>
+            </div>
     </section>
     <footer>
         <div class="row footer-text">
-            <div class="col-md-4 smaller">
+            <div class="col-md-4 col-sm-6 smaller">
                 <u class="bold">Previous years winners</u>
                 <ul>
                     <li>2018: OG ($26 million prize pool)</li>
@@ -48,13 +113,12 @@
                     <li>2015: Evil genius ($18 million prize pool)</li>
                 </ul>
             </div>
-            <div class="col-md-4 smaller">
+            <div class="col-md-4 col-sm-0 how-get-money smaller">
                 <div><u>How do they get this money?</u></div>
                 <div>This fact that pros have collectively won more playing Dota 2 than they have in League of Legends, Counter-Strike: Global Offensive, StarCraft II, and Counter-Strike 1.6 combined. The money itself comes simply from crowdfunding from an
                     in-game app called 'the compendium' which gives the user unique rewards.</div>
             </div>
-
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
                 <div class="smaller"><u>More of my reviews</u></div>
                 <div class="smaller">Find out about more E-sport reviews through my social medias!</div>
                 <div>
@@ -68,6 +132,26 @@
             </div>
         </div>
     </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="Grand-final" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Grand final: OG vs PSG.LGD</h4>
+                </div>
+                <div class="modal-body">
+                    Final fight of ti8
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

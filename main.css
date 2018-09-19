@@ -19,14 +19,15 @@
 .uppercase {
     text-transform: uppercase;
 }
+
 /*--------------------------------------------Header*/
 
 .header-img {
     background-color: #252530;
-    margin-right: 0;
-    padding-right: 0;
-    width: 105%;
-    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
 }
 
 .center {
@@ -37,7 +38,7 @@
 }
 
 .menu-text {
-    margin-top: 90px;
+    margin-top: 0%;
     text-align: center;
     padding-top: 10px;
     color: #adadad;
@@ -60,6 +61,77 @@
     padding: 0;
 }
 
+/*--------------------------------------------Section (results)*/
+
+section {
+    background-color: #adadad;
+    color: #252530;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.stage {
+    font-size: 2em;
+}
+
+.team-left {
+    text-align: right;
+}
+
+.team-right {
+    text-align: left;
+}
+
+.score {
+    font-weight: bolder;
+    padding-top: 30px;
+
+}
+
+.fight-result {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gamepad {
+    font-size: 1.5em;
+}
+
+/*--------------------------------------------Section (Teams)*/
+
+.team-name {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.player-img {
+    text-align: center;
+    padding: 10px;
+}
+
+.player-name {
+    text-align: center;
+}
+
+/*--------------------------------------------Section (About)*/
+
+.disclaimer {
+    font-size: smaller;
+    padding-bottom: 15px;
+}
+
+.question {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.answer {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
@@ -68,7 +140,7 @@ footer {
 }
 
 .footer-text {
-    padding-left: 200px;
+    padding-left: 50px;
 }
 
 .social-links {
@@ -92,5 +164,32 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #252530;
+    color: #adadad;
+}
+
+/*--------------------------------------------Media*/
+
+@media(max-width: 992px) {
+    .fight-results-mobile {
+        position: center;
+    }
+    .team-left {
+        text-align: center
+    }
+    .team-right {
+        text-align: center;
+    }
+    .score {
+        font-weight: bolder;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+    .how-get-money {
+        display: none;
+    }
+    .teams-logo {
+        text-align: center;
+    }
 }
