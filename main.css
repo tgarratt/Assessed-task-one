@@ -124,12 +124,12 @@ section {
 .question {
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 5px;
+    padding-left: 140px;
 }
 
 .answer {
-    padding-left: 5px;
-    padding-right: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 /*--------------------------------------------Footer*/
