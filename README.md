@@ -23,7 +23,7 @@ Features-
 5. The download feautre means after seeing all this contect for one of the most intense internations you can have a go at the game for yourself, targeted for begginers.
 6. The nav bar allows an easy navigation process with a simple amount of options making it clear where your information will be.
  
-A desired feautre would be to be able to click on a players image or name to then be taken to another page with informtion abotu them specifically which would give you a 
+A desired feautre would be to be able to click on a players image or name to then be taken to another page with informtion about them specifically which would give you a 
 better understanding of your prefered player.
 
 Technologies Used- 
